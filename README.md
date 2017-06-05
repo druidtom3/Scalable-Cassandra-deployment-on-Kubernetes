@@ -176,7 +176,7 @@ Status=Up/Down
 UN  172.xxx.xxx.xxx  109.28 KB  256          100.0%             6402e90d-7995-4ee1-bb9c-36097eb2c9ec  Rack1
 ```
 
-To increase the number of Pods, you can scale the Replication Controller as many as the available resources can acccomodate. Proceed to the next step.
+To increase the number of Pods, you can scale the Replication Controller as many as the available resources can accommodate. Proceed to the next step.
 
 # 4. Scale the Replication Controller
 
@@ -349,7 +349,7 @@ cqlsh> SELECT * FROM my_cassandra_keyspace.employee;
 
 You now have a non-persistent Caasandra cluster ready!!
 
-**If you want to create persistent Cassandra clusters, pelase move forward. Before proceeding to the next steps, delete your Cassandra Replication Controller.**
+**If you want to create persistent Cassandra clusters, please move forward. Before proceeding to the next steps, delete your Cassandra Replication Controller.**
 
 ```bash
 $ kubectl delete rc cassandra
